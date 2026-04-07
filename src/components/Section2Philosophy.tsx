@@ -1,0 +1,41 @@
+"use client";
+
+import { motion, useScroll, useTransform } from "framer-motion";
+import { useRef } from "react";
+import { translations } from "@/data/translations";
+
+interface Section2PhilosophyProps {
+  lang: "en" | "np";
+}
+
+export default function Section2Philosophy({ lang }: Section2PhilosophyProps) {
+  const ref = useRef(null);
+  const { scrollYProgress } = useScroll({
+    target: ref,
+    offset: ["start end", "end start"]
+  });
+
+  const t = translations[lang].philosophy;
+  const y = useTransform(scrollYProgress, [0, 1], [100, -100]);
+
+  return (
+    <section id="vision" ref={ref} className="bg-white py-[25vh] px-8 overflow-hidden">
+      <motion.div style={{ y }} className="max-w-[90vw] mx-auto">
+        <span className="text-accent-gold font-bold tracking-widest text-xs block mb-12">
+          {t.tag}
+        </span>
+        <h2 className={`text-[6vw] md:text-[5vw] font-black text-primary-navy leading-[0.9] tracking-tighter uppercase ${lang === "np" ? "np-heading" : ""}`}>
+          {t.title_1} <br /> {t.title_2} <span className="text-accent-gold">{t.title_gold}</span>
+        </h2>
+        <div className="mt-20 ml-auto w-full md:w-1/2 flex flex-col gap-8">
+          <p className={`text-2xl md:text-3xl text-gray-900 font-light leading-snug ${lang === "np" ? "np-body" : ""}`}>
+            {t.para_1}
+          </p>
+          <p className={`text-xl md:text-2xl text-gray-500 font-light leading-snug ${lang === "np" ? "np-body" : ""}`}>
+            {t.para_2}
+          </p>
+        </div>
+      </motion.div>
+    </section>
+  );
+}

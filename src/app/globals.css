@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-primary-navy: #111111;
+  --color-primary-navy-light: #222222;
+  --color-accent-gold: #EA0000;
+  --color-accent-gold-dark: #B30000;
+  --color-accent-orange: #FF3333;
+  --color-accent-orange-dark: #CC0000;
+  --color-background: #ffffff;
+  --color-foreground: #111111;
+  
+  --font-sans: var(--font-inter);
+  --font-devanagari: var(--font-devanagari);
+  
+  --tracking-tighter: -0.015em;
+  --tracking-tight: -0.005em;
+}
+
+body {
+  background: var(--color-background);
+  color: var(--color-foreground);
+}
+
+/* Devanagari heading fix:
+   - forces the Noto Sans Devanagari typeface
+   - resets letter-spacing (tight tracking breaks Devanagari conjuncts)
+   - increases line-height so matras don't clip into the line above */
+.np-heading {
+  font-family: var(--font-devanagari), sans-serif !important;
+  letter-spacing: 0em !important;
+  line-height: 1.25 !important;
+  word-break: keep-all;
+}
+
+/* Body-weight Devanagari text — less extreme adjustments needed */
+.np-body {
+  font-family: var(--font-devanagari), sans-serif !important;
+  letter-spacing: 0em !important;
+  line-height: 1.8 !important;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+::-webkit-scrollbar-thumb {
+  background: #0B1E40; 
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #1A3056; 
+}
