@@ -11,7 +11,7 @@ export const translations = {
       title_1: "BUILDING",
       title_2: "THE NEXT",
       title_gold: "ECONOMY.",
-      desc: "Sachin Dhakal for FNCCI Associate Member. Transforming traditional sectors into modern industries.",
+      desc: "Sachin Dhakal: Candidate for FNCCI Associate Member. Transforming traditional sectors into modern industries.",
       scroll: "Scroll to Discover ↓",
     },
     experience: {
