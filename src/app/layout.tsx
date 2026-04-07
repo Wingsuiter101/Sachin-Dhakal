@@ -54,9 +54,9 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${inter.variable} ${devanagari.variable} min-h-full antialiased scroll-smooth`}
+      className={`${inter.variable} ${devanagari.variable} min-h-full antialiased scroll-smooth overflow-x-hidden`}
     >
-      <body className="min-h-full flex flex-col font-sans bg-white text-gray-900">{children}</body>
+      <body className="min-h-full flex flex-col font-sans bg-primary-navy text-white overflow-x-hidden">{children}</body>
     </html>
   );
 }

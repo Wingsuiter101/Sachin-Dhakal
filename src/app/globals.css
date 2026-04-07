@@ -17,9 +17,13 @@
   --tracking-tight: -0.005em;
 }
 
+html,
 body {
-  background: var(--color-background);
-  color: var(--color-foreground);
+  background: var(--color-primary-navy);
+  color: #ffffff;
+  overflow-x: hidden;
+  position: relative;
+  width: 100%;
 }
 
 /* Devanagari heading fix:

@@ -19,17 +19,27 @@ export default function Navbar({ lang, setLang }: NavbarProps) {
             SACHIN DHAKAL
           </span>
         </div>
-        <div className="flex flex-row items-center text-[10px] md:text-sm font-bold tracking-widest gap-3 md:gap-8 uppercase">
-          <a href="#vision" className="hover:text-accent-gold transition-colors">{t.philosophy}</a>
-          <a href="#agenda" className="hover:text-accent-gold transition-colors">{t.agenda}</a>
-          <a href="#media" className="hover:text-accent-gold transition-colors">{t.media}</a>
+        <div className="flex flex-row items-center gap-4">
+          <div className="hidden md:flex flex-row items-center text-sm font-bold tracking-widest gap-8 uppercase">
+            <a href="#vision" className="hover:text-accent-gold transition-colors">{t.philosophy}</a>
+            <a href="#agenda" className="hover:text-accent-gold transition-colors">{t.agenda}</a>
+            <a href="#media" className="hover:text-accent-gold transition-colors">{t.media}</a>
+          </div>
           
-          <button 
-            onClick={() => setLang(lang === "en" ? "np" : "en")}
-            className="ml-4 px-2 py-1 border border-white/10 hover:bg-accent-gold hover:border-accent-gold transition-all duration-300 text-xs font-black cursor-pointer"
-          >
-            {t.lang}
-          </button>
+          <div className="flex items-center bg-white/5 border border-white/10 p-1">
+            <button 
+              onClick={() => setLang("en")}
+              className={`px-3 py-1 text-[10px] font-black transition-all duration-300 ${lang === "en" ? "bg-accent-gold text-white" : "text-gray-400 hover:text-white"}`}
+            >
+              ENG
+            </button>
+            <button 
+              onClick={() => setLang("np")}
+              className={`px-3 py-1 text-[10px] font-black transition-all duration-300 ${lang === "np" ? "bg-accent-gold text-white" : "text-gray-400 hover:text-white"}`}
+            >
+              NEP
+            </button>
+          </div>
         </div>
       </div>
     </header>

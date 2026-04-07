@@ -13,7 +13,7 @@ export default function Footer({ lang }: FooterProps) {
     <footer id="endorse" className="bg-accent-gold text-white pt-32 pb-16 px-8 flex flex-col items-center justify-center">
       <div className="w-full max-w-[90vw] mx-auto text-center">
         
-        <h2 className={`text-[8vw] leading-[0.85] font-black uppercase tracking-tighter mb-16 text-black mix-blend-overlay ${lang === "np" ? "np-heading" : ""}`}>
+        <h2 className={`text-[8vw] leading-[0.85] font-black uppercase tracking-tighter mb-16 text-white ${lang === "np" ? "np-heading" : ""}`}>
           {t.cta_1}<br/>{t.cta_2}
         </h2>
 
