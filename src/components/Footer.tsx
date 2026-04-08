@@ -18,7 +18,9 @@ export default function Footer({ lang }: FooterProps) {
         </h2>
 
         <a
-          href="mailto:contact@sachindhakal.com"
+          href="https://docs.google.com/forms/d/e/1FAIpQLSfqS4qkgYh11Tg0pMltMwsY3l6I8q_RV_saKse-wIAPYB4_9A/viewform?usp=header"
+          target="_blank"
+          rel="noopener noreferrer"
           className={`inline-block border-[3px] border-white text-white text-3xl font-black tracking-tighter px-16 py-8 hover:bg-white hover:text-accent-gold transition-colors duration-300 uppercase ${lang === "np" ? "np-heading" : ""}`}
         >
           {t.endorse}
