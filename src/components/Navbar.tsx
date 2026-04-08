@@ -21,7 +21,7 @@ export default function Navbar({ lang, setLang }: NavbarProps) {
         </div>
         <div className="flex flex-row items-center gap-4">
           <div className="hidden md:flex flex-row items-center text-sm font-bold tracking-widest gap-8 uppercase">
-            <a href="#vision" className="hover:text-accent-gold transition-colors">{t.philosophy}</a>
+            <a href="#vision" className="hover:text-accent-gold transition-colors">{t.vision}</a>
             <a href="#agenda" className="hover:text-accent-gold transition-colors">{t.agenda}</a>
             <a href="#media" className="hover:text-accent-gold transition-colors">{t.media}</a>
           </div>

@@ -4,18 +4,18 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
 import { translations } from "@/data/translations";
 
-interface Section2PhilosophyProps {
+interface Section2VisionProps {
   lang: "en" | "np";
 }
 
-export default function Section2Philosophy({ lang }: Section2PhilosophyProps) {
+export default function Section2Vision({ lang }: Section2VisionProps) {
   const ref = useRef(null);
   const { scrollYProgress } = useScroll({
     target: ref,
     offset: ["start end", "end start"]
   });
 
-  const t = translations[lang].philosophy;
+  const t = translations[lang].vision;
   const y = useTransform(scrollYProgress, [0, 1], [100, -100]);
 
   return (

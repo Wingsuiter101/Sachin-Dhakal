@@ -19,9 +19,9 @@ export default function Section5Policy({ lang }: Section5PolicyProps) {
             {t.tag}
           </span>
           <img 
-            src="https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=2940&auto=format&fit=crop" 
-            alt="Corporate Unity"
-            className="w-full h-auto grayscale contrast-150 mix-blend-darken"
+            src="/sync-apparatus.png" 
+            alt="Synchronizing the Apparatus"
+            className="w-full h-auto"
           />
         </div>
 

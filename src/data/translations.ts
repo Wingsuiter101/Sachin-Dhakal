@@ -1,7 +1,7 @@
 export const translations = {
   en: {
     navbar: {
-      philosophy: "Philosophy",
+      vision: "Vision",
       agenda: "Agenda",
       media: "Media",
       lang: "ने",
@@ -11,7 +11,7 @@ export const translations = {
       title_1: "BUILDING",
       title_2: "THE NEXT",
       title_gold: "ECONOMY.",
-      desc: "Sachin Dhakal: Candidate for FNCCI Associate Member. Transforming traditional sectors into modern industries.",
+      desc: "Sachin Dhakal: Candidate for Executive Committee Member (Associate) FNCCI. Transforming traditional sectors into modern industries.",
       scroll: "Scroll to Discover ↓",
     },
     experience: {
@@ -30,8 +30,8 @@ export const translations = {
       alumni: "Alumni",
       lmu: "Loyola Marymount University",
     },
-    philosophy: {
-      tag: "[ 002 // The Philosophy ]",
+    vision: {
+      tag: "[ 002 // The Vision ]",
       title_1: "Nepal's economic future",
       title_2: "demands",
       title_gold: "modern voices.",
@@ -45,7 +45,7 @@ export const translations = {
       item_2_title: "Imagining New Tourist Hubs",
       item_2_desc: "We don't just rely on existing destinations. We find untouched locations and engineer them into massive tourism hubs with cascading economic snowball effects — a vision already proven through our rapid scaling of properties like Maulakali and Chandragiri.",
       item_3_title: "The New Political Reality",
-      item_3_desc: "Nepal's political landscape has shifted; young, dynamic leaders are now dictating national policy. The FNCCI requires a similarly revitalizing approach. As the youngest AM candidate, I bridge the gap, ensuring our corporate strategy works seamlessly hand-in-hand with the new government apparatus.",
+      item_3_desc: "Nepal's political landscape has shifted; young, dynamic leaders are now dictating national policy. The FNCCI requires a similarly revitalizing approach. As the youngest candidate for Executive Committee Member (Associate), I bridge the gap, ensuring our corporate strategy works seamlessly hand-in-hand with the new government apparatus.",
     },
     sports: {
       tag: "[ 004 // Sports as Industry ]",
@@ -79,7 +79,7 @@ export const translations = {
       item_1_title: "Bridging the Inter-Generational Gap",
       item_1_para: "A massive shift has occurred in national governance with young demographic leaders aggressively dictating policy. The private sector requires representation that speaks the identical dynamic language to ensure seamless macroeconomic cooperation.",
       item_2_title: "Eradicating Friction",
-      item_2_para: "As the youngest Associate Member candidate, the core mandate is to modernize outdated bureaucratic red tape. We must ensure private enterprise can rapidly deploy capital without state-level friction.",
+      item_2_para: "As the youngest candidate for Executive Committee Member (Associate), the core mandate is to modernize outdated bureaucratic red tape. We must ensure private enterprise can rapidly deploy capital without state-level friction.",
     },
     media: {
       tag: "[ 007 // Public Discourse ]",
@@ -87,7 +87,7 @@ export const translations = {
       swipe: "Swipe / Scroll",
       pub_title: "Publications & Editorial",
       read: "Read Article →",
-      article_1_title: "Sachin Dhakal Files Candidacy for FNCCI Associate Member under Shrestha Panel",
+      article_1_title: "Sachin Dhakal Files Candidacy for Executive Committee Member (Associate) FNCCI under Shrestha Panel",
       article_2_title: "Jyotsna's Team With Sachin Dhakal Emerges Stronger",
     },
     footer: {
@@ -101,7 +101,7 @@ export const translations = {
   },
   np: {
     navbar: {
-      philosophy: "दर्शन",
+      vision: "दृष्टि",
       agenda: "कार्यसूची",
       media: "सञ्चारमाध्यम",
       lang: "EN",
@@ -111,7 +111,7 @@ export const translations = {
       title_1: "आगामी",
       title_2: "अर्थतन्त्रको",
       title_gold: "निर्माण।",
-      desc: "FNCCI एशोसिएट सदस्यका लागि सचिन ढकाल — परम्परागत उद्योगलाई आधुनिक बजारमा रूपान्तरण गर्ने अभियान।",
+      desc: "FNCCI कार्यकारिणी सदस्य (एशोसिएट) का लागि सचिन ढकाल — परम्परागत उद्योगलाई आधुनिक बजारमा रूपान्तरण गर्ने अभियान।",
       scroll: "तल स्क्रोल गर्नुहोस् ↓",
     },
     experience: {
@@ -130,8 +130,8 @@ export const translations = {
       alumni: "भूतपूर्व विद्यार्थी",
       lmu: "Loyola Marymount University",
     },
-    philosophy: {
-      tag: "[ ००२ // दर्शन ]",
+    vision: {
+      tag: "[ ००२ // दृष्टि ]",
       title_1: "नेपालको आर्थिक भविष्यलाई",
       title_2: "चाहिन्छ",
       title_gold: "आधुनिक नेतृत्व।",
@@ -145,7 +145,7 @@ export const translations = {
       item_2_title: "नयाँ पर्यटकीय गन्तव्यको सिर्जना",
       item_2_desc: "हामी पुराना पगडण्डीमा मात्र भर पर्दैनौं। अछुतो र उपेक्षित स्थानहरू खोजेर त्यहाँ ठूला पर्यटकीय केन्द्र निर्माण गर्नु हाम्रो दृष्टिकोण हो — जसको प्रत्यक्ष प्रमाण चन्द्रगिरी र मौलाकाली हुन्।",
       item_3_title: "नयाँ राजनीतिक यथार्थ",
-      item_3_desc: "नेपालको राजनीतिमा युवा र ऊर्जावान नेताहरूले राष्ट्रिय नीति निर्धारण गर्न थालेका छन्। FNCCI लाई पनि त्यस्तै नवीनतावादी सोच चाहिन्छ। सबैभन्दा कान्छो उम्मेदवारको रूपमा, म निजी क्षेत्र र नयाँ सरकारी संरचनाबीच पुलको काम गर्नेछु।",
+      item_3_desc: "नेपालको राजनीतिमा युवा र ऊर्जावान नेताहरूले राष्ट्रिय नीति निर्धारण गर्न थालेका छन्। FNCCI लाई पनि त्यस्तै नवीनतावादी सोच चाहिन्छ। कार्यकारिणी सदस्य (एशोसिएट) को सबैभन्दा कान्छो उम्मेदवारको रूपमा, म निजी क्षेत्र र नयाँ सरकारी संरचनाबीच पुलको काम गर्नेछु।",
     },
     sports: {
       tag: "[ ००४ // उद्योगको रूपमा खेलकुद ]",
@@ -179,7 +179,7 @@ export const translations = {
       item_1_title: "पुस्ताबीचको खाडल पुर्नु",
       item_1_para: "राष्ट्रिय शासनमा युवा नेताहरूको प्रभाव बलियो भएको छ। निजी क्षेत्रलाई पनि त्यस्तै गतिशील प्रतिनिधित्व चाहिन्छ — जसले म्याक्रोइकोनोमिक सहकार्य सुनिश्चित गरोस्।",
       item_2_title: "नोकरशाही बाधाको अन्त्य",
-      item_2_para: "सबैभन्दा कान्छो उम्मेदवारको रूपमा, मेरो मुख्य ध्येय छ — पुराना र अवरोधकारी नौकरशाही प्रणालीलाई आधुनिक बनाउनु, ताकि निजी उद्यमले बिना अवरोध पूँजी परिचालन गर्न पाओस्।",
+      item_2_para: "कार्यकारिणी सदस्य (एशोसिएट) को सबैभन्दा कान्छो उम्मेदवारको रूपमा, मेरो मुख्य ध्येय छ — पुराना र अवरोधकारी नौकरशाही प्रणालीलाई आधुनिक बनाउनु, ताकि निजी उद्यमले बिना अवरोध पूँजी परिचालन गर्न पाओस्।",
     },
     media: {
       tag: "[ ००७ // सार्वजनिक सञ्चार ]",
@@ -187,7 +187,7 @@ export const translations = {
       swipe: "स्वाइप / स्क्रोल",
       pub_title: "प्रकाशन र सम्पादकीय",
       read: "लेख पढ्नुहोस् →",
-      article_1_title: "सचिन ढकालले FNCCI एशोसिएट सदस्यका लागि श्रेष्ठ प्यानलअन्तर्गत उम्मेदवारी दर्ता गरे",
+      article_1_title: "सचिन ढकालले FNCCI कार्यकारिणी सदस्य (एशोसिएट) का लागि श्रेष्ठ प्यानलअन्तर्गत उम्मेदवारी दर्ता गरे",
       article_2_title: "सचिन ढकालसहितको ज्योत्स्ना टिम थप सशक्त",
     },
     footer: {

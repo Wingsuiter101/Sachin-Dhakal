@@ -15,11 +15,11 @@ const devanagari = Noto_Sans_Devanagari({
 });
 
 export const metadata: Metadata = {
-  title: "Sachin Dhakal | Candidate for FNCCI Associate Member",
-  description: "Building the Next Economy. Bridging the Next Generation. Sachin Dhakal for FNCCI Associate Member.",
-  keywords: ["Sachin Dhakal", "FNCCI", "Associate Member Candidate", "Associate Member", "Nepal Economy", "Next Gen Entrepreneurs", "FC Chitwan"],
+  title: "Sachin Dhakal | Candidate for Executive Committee Member (Associate) FNCCI",
+  description: "Building the Next Economy. Bridging the Next Generation. Sachin Dhakal for Executive Committee Member (Associate) FNCCI.",
+  keywords: ["Sachin Dhakal", "FNCCI", "Executive Committee Member (Associate)", "Associate Member", "Nepal Economy", "Next Gen Entrepreneurs", "FC Chitwan"],
   openGraph: {
-    title: "Sachin Dhakal | Candidate for FNCCI Associate Member",
+    title: "Sachin Dhakal | Candidate for Executive Committee Member (Associate) FNCCI",
     description: "Building the Next Economy. Bridging the Next Generation.",
     url: "https://sachindhakal.com",
     siteName: "Sachin Dhakal Campaign",
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Sachin Dhakal | Candidate for FNCCI Associate Member",
+    title: "Sachin Dhakal | Candidate for Executive Committee Member (Associate) FNCCI",
     description: "Building the Next Economy. Bridging the Next Generation.",
     images: ["/Social-image.png"],
   },

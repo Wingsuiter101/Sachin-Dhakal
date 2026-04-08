@@ -4,7 +4,7 @@ import { useState } from "react";
 import Navbar from "@/components/Navbar";
 import Section1Hero from "@/components/Section1Hero";
 import Section8Experience from "@/components/Section8Experience";
-import Section2Philosophy from "@/components/Section2Philosophy";
+import Section2Vision from "@/components/Section2Vision";
 import Section3Sports from "@/components/Section3Sports";
 import Section4Tourism from "@/components/Section4Tourism";
 import Section5Policy from "@/components/Section5Regional";
@@ -21,7 +21,7 @@ export default function Home() {
       <main className="flex min-h-screen flex-col w-full">
         <Section1Hero lang={lang} />
         <Section8Experience lang={lang} />
-        <Section2Philosophy lang={lang} />
+        <Section2Vision lang={lang} />
         <Section7Agenda lang={lang} />
         <Section3Sports lang={lang} />
         <Section4Tourism lang={lang} />
