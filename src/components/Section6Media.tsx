@@ -6,10 +6,10 @@ import { translations } from "@/data/translations";
 
 const videos = [
   {
-    id: "I5CWJctoUFo",
-    url: "https://www.youtube.com/watch?v=I5CWJctoUFo",
-    label: "Dekhapadhi",
-    title: "In Search of Identity & Building FC Chitwan"
+    id: "ELJrzbWMJ9c",
+    url: "https://www.youtube.com/watch?v=ELJrzbWMJ9c",
+    label: "Hamro KhelCast E91",
+    title: "FC Chitwan & The Sports Economy"
   },
   {
     id: "3TMyw-5mR1E",
@@ -18,10 +18,10 @@ const videos = [
     title: "Next Gen Entrepreneurs!"
   },
   {
-    id: "I5CWJctoUFo", // Duplicate thumbnail to fulfill the "3 items" request until the real 3rd link is provided
+    id: "I5CWJctoUFo",
     url: "https://www.youtube.com/watch?v=I5CWJctoUFo",
-    label: "FC Chitwan Future",
-    title: "The Vision for Commercial Football"
+    label: "Dekhapadhi",
+    title: "In Search of Identity & Building FC Chitwan"
   }
 ];
 
